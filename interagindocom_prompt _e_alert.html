@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dados com JS</title>
+    <style>
+        body { font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+        button { font-size: 12pt; padding: 30px; color: black;background-color: red; }
+        div{text-align: center;              }
+    </style>
+</head>
+<body> <div>
+    <h1>Trabalhando com prompt() e o alert() juntos</h1>
+    <button onclick="inicio()">Clique para começar</button>
+    <script>
+        function inicio() {
+            let nome = window.prompt('Qual é o seu nome? ')
+            let idade =window.prompt('Qual sua idade?')
+            window.alert(`Olá, ${nome}! É um prazer te conhecer! voce tem ${idade} anos`)
+    
+        }
+    </script>
+</body>
+</html>
